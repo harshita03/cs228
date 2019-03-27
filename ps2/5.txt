@@ -1,0 +1,22 @@
+(a) [Naive Bayes] 10-fold cross validation total test accuracy 0.9181 on 232 examples
+     Test error = 0.0819
+
+
+(b) [TANB] 10-fold cross validation total test accuracy 0.9526 on 232 examples
+     Test error = 0.0474
+
+(c) P(C=1|A_observed) = 0.9899
+     P(A=12|A_observed) = 0.1022
+
+
+(d) Naive Bayes (Test accuracy on a smaller subset)
+     10-fold cross validation total test accuracy 0.9009 on 232 examples
+     Test error = 0.0991
+
+     TANB Classifier (Test accuracy on a smaller subset)
+     10-fold cross validation total test accuracy 0.8922 on 232 examples
+     Test error = 0.1078
+
+The test error for TANB is higher than that for Naive Bayes.
+This is happening because TANB probably overfits the training
+data due to greater freedom in setting conditional probabilities.
